@@ -4,7 +4,5 @@ function clicking() {
     var height = document.getElementById("height").value;
     var area = length * breadth * height;
 
-    document.getElementById("displayhere").innerHTML = 'Total' + ' ' + area;
-
 
 }
