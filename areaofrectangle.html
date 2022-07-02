@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #length {
+            color: #FBB64E;
+            margin-left: 600px;
+            margin-top: 300px;
+            position: absolute;
+            padding-top: 10px;
+            border-radius: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 23px;
+        }
+
+
+        #breadth {
+            color: #FBB64E;
+            margin-left: 600px;
+            margin-top: 350px;
+            position: absolute;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 23px;
+            border-radius: 5px;
+        }
+
+        #height {
+            color: #FBB64E;
+            margin-left: 600px;
+            margin-top: 400px;
+            position: absolute;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 23px;
+            border-radius: 5px;
+        }
+
+        #submit_button {
+            background-color: #028DFF;
+            color: ghostwhite;
+            margin-left: 600px;
+            margin-top: 450px;
+            position: absolute;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-radius: 15px;
+        }
+
+        #submit_button:hover {
+            background-color: #024B8A;
+        }
+
+        #displayhere {
+            color: #0A80F7;
+            margin-left: 600px;
+            margin-top: 500px;
+            position: absolute;
+        }
+    </style>
+    <script src="aor.js"> </script>
+</head>
+
+<body>
+    <div id="container">
+        <input type="text" id="length" placeholder="Length">
+        <input type="text" id="breadth" placeholder="Breadth">
+        <input type="text" id="height" placeholder="width">
+        <button type="submit" id="submit_button" onclick="clicking()">submit</button>
+        <h1 id="displayhere"> </h1>
+    </div>
+</body>
+
+</html>
